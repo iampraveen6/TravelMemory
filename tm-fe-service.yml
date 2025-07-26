@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: travelmemory-fe-service
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: nodejs
   ports:
